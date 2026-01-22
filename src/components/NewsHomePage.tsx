@@ -112,11 +112,17 @@ export function NewsHomePage({ onNavigate }: NewsHomePageProps) {
               >
                 Konferenciák
               </button>
-              <button 
+              <button
                 onClick={() => onNavigate?.('hirlevel')}
                 className="text-gray-400 hover:text-cyan-400 transition-colors text-sm lg:text-base 2xl:text-lg"
               >
                 Hírlevél
+              </button>
+              <button
+                onClick={() => onNavigate?.('kaki')}
+                className="text-gray-400 hover:text-cyan-400 transition-colors text-sm lg:text-base 2xl:text-lg"
+              >
+                Kaki
               </button>
             </nav>
 
