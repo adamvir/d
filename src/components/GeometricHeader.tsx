@@ -23,6 +23,7 @@ export function GeometricHeader({ currentPage, onNavigate, isDark, onThemeToggle
   const navItems = [
     { label: "Konferenciák", value: "konferenciak", icon: Calendar },
     { label: "Hírlevél", value: "hirlevel", icon: Mail },
+    { label: "Kaki", value: "kaki", icon: Grid3X3 },
   ];
 
   const handleMobileNavigate = (page: string) => {
